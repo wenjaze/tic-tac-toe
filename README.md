@@ -7,7 +7,7 @@ _A projekt egy egyetemi tárgyhoz (Szoftverfejlesztési Módszertanok) szükség
 
 ### :bookmark_tabs: Követelményspecifikáció:
 - **:date: Jelenlegi helyzet:**
-A XX. században tanulói, az órákon, unalmukban gyakran papíron amőbáztak. A XXI. század
+A XX. század tanulói, az órákon, unalmukban gyakran papíron amőbáztak, kockásfüzet stb... A XXI. század
 tanulói/gyerekei már egy teljesen más közegben, teljesen más technológiai szinten élik életüket.
 Ezeket az embereket figyelembe véve készült ez a projekt.
 Arra való tekintettel, hogy nem ismerünk ilyen realtime-játsztható,
