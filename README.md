@@ -5,7 +5,7 @@
 
 _A projekt egy egyetemi tárgyhoz (Szoftverfejlesztési Módszertanok) szükséges WebApp implementációja._
 
-###:bookmark_tabs: Követelményspecifikáció:
+### :bookmark_tabs: Követelményspecifikáció:
 - **:date: Jelenlegi helyzet:**
 Jelenlegi helyzet nincs mivel nincsen előzőleges verzió,
 Ez egy from scratch projekt.
