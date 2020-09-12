@@ -7,8 +7,9 @@ _A projekt egy egyetemi tárgyhoz (Szoftverfejlesztési Módszertanok) szükség
 
 ### :bookmark_tabs: Követelményspecifikáció:
 - **:date: Jelenlegi helyzet:**
-Jelenlegi helyzet nincs mivel nincsen előzőleges verzió,
-Ez egy from scratch projekt.
+Arra való tekintettel, hogy nem ismerünk ilyen realtime-játsztható,
+egyszerű játékot, amely szimpla, gyors csatlakozás után, regisztráció nélkül azonnal
+játszható, kezdeményeztük ennek a projektnek a kialakítását.
 - **:zzz: Vágyálomrendszer:**
 Egy olyan webes platformon futó 3x3-as amőba játékot szeretnénk
 megvalósítani amely multiplayerben játszható.
