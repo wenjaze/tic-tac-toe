@@ -4,6 +4,7 @@
 ![GitHub contributors](https://img.shields.io/github/contributors/wenjaze/Tic-Tac-Toe?color=green) ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/wenjaze/Tic-Tac-Toe?color=green)
 
 _A projekt egy egyetemi tárgyhoz (Szoftverfejlesztési Módszertanok) szükséges WebApp implementációja._
+
 ###:bookmark_tabs: Követelményspecifikáció:
 - **:date: Jelenlegi helyzet:**
 Jelenlegi helyzet nincs mivel nincsen előzőleges verzió,
