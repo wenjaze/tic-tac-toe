@@ -12,18 +12,24 @@ egyszerű játékot, amely szimpla, gyors csatlakozás után, regisztráció né
 játszható, kezdeményeztük ennek a projektnek a kialakítását.
 - **:zzz: Vágyálomrendszer:**
 Egy olyan webes platformon futó 3x3-as amőba játékot szeretnénk
-megvalósítani amely multiplayerben játszható.
+megvalósítani amely multiplayerben játszható, egyszerűen regisztráció nélkül, AZONNAL,
+realtime-játszható. Elvárás továbbá az egyszerű csatlakozás, egyszerű invitálás,
+tiszta felhasználói felület, könnyű betölthetőség.
 
 __:hammer_and_wrench: Fejlesztői környezetek, eszközök, platformok:__
-  - _npm_
-  - _node.js_
-  - _react.js_
-  - _VSCode_
-  - _Ubuntu 20.08_
-  - _Windows 10_
-  - *JavaScript*
-  - *HTML*
-  - *CSS*
+  - Felhasznált technológiák:
+    - _npm_
+    - _node.js_
+    - _react.js_
+  - Fejlesztői környezetek:
+    - _VSCode_
+  - Operációs rendszerek és verzióik:  
+    - _Ubuntu 20.08_
+    - _Windows 10_
+  - Fejlesztési nyelvek:
+    - *JavaScript*
+    - *HTML*
+    - *CSS*
 
 **:handshake: Kontribútorok:**
 - [Raska Gergely](www.github.com/wenjaze)
