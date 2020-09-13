@@ -1,0 +1,31 @@
+{
+  "name": "tic-tac-toe-backend",
+  "version": "1.0.0",
+  "description": "Group project (SZFM_2020_10)",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wenjaze/Tic-Tac-Toe.git"
+  },
+  "keywords": [
+    "tictactoe"
+  ],
+  "author": "SZFM_2020_10_NULL",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/wenjaze/Tic-Tac-Toe/issues"
+  },
+  "homepage": "https://github.com/wenjaze/Tic-Tac-Toe#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  }
+}
