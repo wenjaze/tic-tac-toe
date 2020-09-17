@@ -1,4 +1,21 @@
-# 1. Jelenlegi helyzet leírása 
+# 1. Jelenlegi helyzet leírása
+2020 technológiai helyzetének köszönhetően a
+mai kor gyermekei teljesen más környezetben nőnek fel,
+élik életüket, tanulnak, na és persze **JÁTSZANAK**. Ennek a
+rohamos fejlődésnek, valamint a közösségi média platformoknak,
+[YouTube](https://youtube.com)-nak,
+[Twitch.tv](https://www.twitch.tv)-nek köszönhetően, a videójátékokkal
+játszó fiatalok száma jelentősen megnőtt. Ez a szám nem, hogy csak stagnál,
+de iszonyatos léptékben növekszik napról napra.
+[*LÁSD*](https://www.npd.com/wps/portal/npd/us/news/press-releases/2019/according-to-the-npd-group--73-percent-of-u-s--consumers-play-video-games/).
+Továbbá az is egyre megszokottabb, ha egy felnőtt játszik
+valamiféle videójátékkal. Az ESA (*Entertainment Software Association*) idei
+“2019 Essential Facts About the Computer and Video Game Industry.” elnevezésű
+közvéleménykutatása szerint az amerikai felnőttek közel 65%-a, magyarán több mint 164 millió
+ember játszik számítógépes játékokkal az egyesült államokban.
+Hazánkban ez a szám egyes becslések szerint nem tart itt, azonban általánosan
+kimondható, hogy hazánkban is növekvő tendenciát mutat a videójátékozó
+felnőttek aránya.
 # 2. Vágyálomrendszer leírása
 # 3. Rendszerre vonatkozó pályázat/törvények/rendeletek/szaványok és ajánlások
 # 4. Jelenlegi üzleti folyamatok modellje
