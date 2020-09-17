@@ -13,10 +13,19 @@ valamiféle videójátékkal. Az ESA (*Entertainment Software Association*) idei
 “2019 Essential Facts About the Computer and Video Game Industry.” elnevezésű
 közvéleménykutatása szerint az amerikai felnőttek közel 65%-a, magyarán több mint 164 millió
 ember játszik számítógépes játékokkal az egyesült államokban.
-Hazánkban ez a szám egyes becslések szerint nem tart itt, azonban általánosan
+Magyarországon ez a szám egyes becslések szerint nem tart itt, azonban általánosan
 kimondható, hogy hazánkban is növekvő tendenciát mutat a videójátékozó
-felnőttek aránya.
+felnőttek aránya. A fent leírtakra támaszkodva, szeretnénk megfogni egy olyan réteget, akik nem
+korspecifikusak, nem egy konkrét játék, vagy játékzsanra rajongói, hanem azok
+akik, szeretnek a buszra várva, az unalmas órákon időt eltöltve, pihenve
+gondolkozni.
 # 2. Vágyálomrendszer leírása
+Célunk egy olyan egyszerűen játszható játék megírása, melyet mindenki ismer,
+így komplexitás szempontjából a legegyszerűbb : Amőba. A játéknak online
+játszhatónak kell lennie. Fontos szempont az egyszerű csatlakozás 2 féle módon:
+- Szobát csinálunk
+- Egy meglévő szobához csatlakozatunk
+Mivel webes felület, az oldalnak átlátható letisztult UI-ai kell rendelkeznie
 # 3. Rendszerre vonatkozó pályázat/törvények/rendeletek/szaványok és ajánlások
 # 4. Jelenlegi üzleti folyamatok modellje
 # 5. Igényelt üzleti folyamatok modellje
