@@ -25,7 +25,9 @@ Célunk egy olyan egyszerűen játszható játék megírása, melyet mindenki is
 játszhatónak kell lennie. Fontos szempont az egyszerű csatlakozás 2 féle módon:
 - Szobát csinálunk
 - Egy meglévő szobához csatlakozatunk
-Mivel webes felület, az oldalnak átlátható letisztult UI-ai kell rendelkeznie
+Mivel webes felület, az oldalnak átlátható letisztult UI-ai kell rendelkeznie.
+Online Tic-Tac-Toe játékunk, regisztráció nélkül névtelenül játszahtó kell,
+hogy legyen.
 # 3. Rendszerre vonatkozó pályázat/törvények/rendeletek/szaványok és ajánlások
 # 4. Jelenlegi üzleti folyamatok modellje
 # 5. Igényelt üzleti folyamatok modellje
