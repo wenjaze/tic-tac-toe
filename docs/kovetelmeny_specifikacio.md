@@ -19,6 +19,13 @@ felnőttek aránya. A fent leírtakra támaszkodva, szeretnénk megfogni egy oly
 korspecifikusak, nem egy konkrét játék, vagy játékzsanra rajongói, hanem azok
 akik, szeretnek a buszra várva, az unalmas órákon időt eltöltve, pihenve
 gondolkozni.
+A fent leírtakra támaszkodva, szeretnénk megfogni egy olyan réteget, akik nem
+korspecifikusak, nem egy konkrét játék, vagy játékzsanra rajongói, hanem azok
+akik, szeretnek a buszra várva, az unalmas órákon időt eltöltve, pihenve
+gondolkozni. Aki nem tud veszíteni és meg kell mutatnia, hogy ebben is jobb
+mint bárki más. Aki ezt nem hiszi el és elfogadja a kihívást. Az ilyen
+embereket szeretnénk kiszolgálni egy olyan eszközzel amivel ezeket mind
+megvalósíthatják. 
 # 2. Vágyálomrendszer leírása
 Célunk egy olyan egyszerűen játszható játék megírása, melyet mindenki ismer,
 így komplexitás szempontjából a legegyszerűbb : Amőba. A játéknak online
