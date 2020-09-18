@@ -10,7 +10,7 @@ Egy webes 3x3-as amőba játéknak biztosít platformot. Online játszható elő
 regisztráció nélkül. Csinálj egy szobát, vagy csatlakozz egy meglévőhöz!
 Próbáld ki te is! 
 
-:construction:**Az app jelenleg WIP. Hamarosan játszható!**  
+:construction:*Az app jelenleg WIP. Hamarosan játszható!*  
 
 __:hammer_and_wrench: Fejlesztői környezetek, eszközök, platformok:__
   - Felhasznált technológiák:
