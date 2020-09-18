@@ -5,19 +5,12 @@
 
 _A projekt egy egyetemi tárgyhoz (Szoftverfejlesztési Módszertanok) szükséges WebApp implementációja._
 
-### :bookmark_tabs: Követelményspecifikáció:
-- **:date: Jelenlegi helyzet:**
-A XX. század tanulói, az órákon, unalmukban gyakran papíron amőbáztak, kockásfüzet stb... A XXI. század
-tanulói/gyerekei már egy teljesen más közegben, teljesen más technológiai szinten élik életüket.
-Ezeket az embereket figyelembe véve készült ez a projekt.
-Arra való tekintettel, hogy nem ismerünk ilyen realtime-játsztható,
-egyszerű játékot, amely szimpla, gyors csatlakozás után, regisztráció nélkül azonnal
-játszható, kezdeményeztük ennek a projektnek a kialakítását.
-- **:zzz: Vágyálomrendszer:**
-Egy olyan webes platformon futó 3x3-as amőba játékot szeretnénk
-megvalósítani amely multiplayerben játszható, egyszerűen regisztráció nélkül, AZONNAL,
-realtime-játszható. Elvárás továbbá az egyszerű csatlakozás, egyszerű invitálás,
-tiszta felhasználói felület, könnyű betölthetőség.
+### Az appról:
+Egy webes 3x3-as amőba játéknak biztosít platformot. Online játszható előzetes
+regisztráció nélkül. Csinálj egy szobát, vagy csatlakozz egy meglévőhöz!
+Próbáld ki te is! 
+
+:construction:**Az app jelenleg WIP. Hamarosan játszható!**  
 
 __:hammer_and_wrench: Fejlesztői környezetek, eszközök, platformok:__
   - Felhasznált technológiák:
