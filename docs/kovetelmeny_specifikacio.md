@@ -40,5 +40,6 @@ hogy legyen.
 # 5. Igényelt üzleti folyamatok modellje
 # 6. Követelménylista
 - Reszponzív, mobilbarát design
+- Gyors betöltődés, optimalizáció a lassú internetkapcsolattal rendelkező felhasználók részére
 # 7. Irányított és szabad szöveges riportok szövege
 # 8. Fogalomszótár
