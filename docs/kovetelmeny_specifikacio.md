@@ -49,3 +49,4 @@ hogy legyen.
 - Real-time - valós idejű feldolgozás.
 - Webszerver - webhosting cégek által üzemeltetett számítógépek, amiket jellemzően adatközpontoknak (data center) nevezett helyeken hoznak létre. A webszerverek egyetlen célja az, hogy honlapokat tároljanak, amíg nem jön egy látogató, ekkor pedig megjelenítik az oldal tartalmát a látogató böngészőjében.
 - Microservice - egy alkalmazást külön processzben futó, egymással valamilyen, viszonylag egyszerű mechanizmussal kommunikáló (ez legtöbbször egy HTTP API) kisebb szolgáltatások összességéből építünk fel.
+- Reszponzív design - a weboldalnak egy olyan kialakítása, amelyik rugalmasan alkalmazkodik a különböző böngészők képernyőjének méretéhez annak érdekében, hogy optimális megjelenést biztosítson a felhasználónak minden böngészésre alkalmas eszközön, legyen az desktop, laptop, mobil, vagy tablet.
