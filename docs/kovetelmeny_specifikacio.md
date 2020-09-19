@@ -42,5 +42,6 @@ hogy legyen.
 - Reszponzív, mobilbarát design
 - Gyors betöltődés, optimalizáció a lassú internetkapcsolattal rendelkező felhasználók részére
 - Az alapvető biztonsági és adatvédelmi protokollok
+- Egyszerű felület, könnyű kezelhetőség
 # 7. Irányított és szabad szöveges riportok szövege
 # 8. Fogalomszótár
