@@ -18,14 +18,6 @@ kimondható, hogy hazánkban is növekvő tendenciát mutat a videójátékozó
 felnőttek aránya.
 A fent leírtakra támaszkodva fogunk meg egy olyan réteget, akik nem korspecifikusak, nem egy konkrét játék vagy játékzsanra rajongói, hanem azok, akik szeretnek a buszra várva, az unalmas órákon időt eltöltve, pihenve gondolkozni.
 # 2. Vágyálomrendszer leírása.
-Célunk egy olyan egyszerűen játszható játék megírása, melyet mindenki ismer,
-így komplexitás szempontjából a legegyszerűbb : Amőba. A játéknak online
-játszhatónak kell lennie. Fontos szempont az egyszerű csatlakozás 2 féle módon:
-- Szobát csinálunk
-- Egy meglévő szobához csatlakozatunk
-Mivel webes felület, az oldalnak átlátható letisztult UI-ai kell rendelkeznie.
-Online Tic-Tac-Toe játékunk, regisztráció nélkül névtelenül játszahtó kell,
-hogy legyen.
 # 3. A rendszerre vonatkozó pályázat, törvények, rendeletek, szabványok és ajánlások felsorolása.
 # 4. Jelenlegi üzleti folyamatok modellje.
 # 5. Igényelt üzleti folyamatok modellje.
@@ -37,6 +29,11 @@ hogy legyen.
 # 7. Használati esetek.
 # 8. Képernyőtervek.
 # 9. Forgatókönyvek.
+Belépéskor a felhasználó két opcióból választhat:
+- meglévő szobához csatlakozik egy azonosító megadásával
+- új szobát hoz létre.
+
+Azt követően, hogy valamely opciót kiválasztotta, kezdetét veszi a játék. A játékosok felváltva választanak egy üres mezőt. Az a játékos kezd, aki az 'X'-et használja.
 # 10. Funkció – követelmény megfeleltetés.
 # 11. Fogalomszótár.
 - Tic-tac-toe - kétszemélyes absztrakt stratégiai táblás játék, a gomoku játékcsalád egy széleskörben ismert tagja, amit már az ókori Egyiptom területén is ismertek.
