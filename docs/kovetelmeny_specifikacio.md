@@ -48,3 +48,4 @@ hogy legyen.
 - Tic-tac-toe - kétszemélyes absztrakt stratégiai táblás játék, a gomoku játékcsalád egy széleskörben ismert tagja, amit már az ókori Egyiptom területén is ismertek.
 - Real-time - valós idejű feldolgozás.
 - Webszerver - webhosting cégek által üzemeltetett számítógépek, amiket jellemzően adatközpontoknak (data center) nevezett helyeken hoznak létre. A webszerverek egyetlen célja az, hogy honlapokat tároljanak, amíg nem jön egy látogató, ekkor pedig megjelenítik az oldal tartalmát a látogató böngészőjében.
+- Microservice - egy alkalmazást külön processzben futó, egymással valamilyen, viszonylag egyszerű mechanizmussal kommunikáló (ez legtöbbször egy HTTP API) kisebb szolgáltatások összességéből építünk fel.
