@@ -45,4 +45,5 @@ hogy legyen.
 - Egyszerű felület, könnyű kezelhetőség
 # 7. Irányított és szabad szöveges riportok szövege
 # 8. Fogalomszótár
-- Tic-tac-toe - kétszemélyes absztrakt stratégiai táblás játék, a gomoku játékcsalád egy széleskörben ismert tagja, amit már az ókori Egyiptom területén is ismertek
+- Tic-tac-toe - kétszemélyes absztrakt stratégiai táblás játék, a gomoku játékcsalád egy széleskörben ismert tagja, amit már az ókori Egyiptom területén is ismertek.
+- Real-time - valós idejű feldolgozás.
