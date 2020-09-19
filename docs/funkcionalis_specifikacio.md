@@ -36,8 +36,10 @@ Belépéskor a felhasználó két opcióból választhat:
 Azt követően, hogy valamely opciót kiválasztotta, kezdetét veszi a játék. A játékosok felváltva választanak egy üres mezőt. Az a játékos kezd, aki az 'X'-et használja.
 
 A játék addig tart, amíg:
-- Valamelyik játékos el nem éri azt, hogy az ő jeléből vízszintesen, függőlegesen vagy átlósan 3 db legyen egymás mellett a táblán. Ekkor az adott jel tulajdonosa nyerte meg a játszmát.
-- amíg a táblán nem marad több üres mező, és így nincs lehetőség további lépésekre. Ha ebben a helyzetben egyik játékosnak sincs 3 jele egymás mellett az 1. pontban leírtak szerint, akkor a játék döntetlenül végződik.
+- valamelyik játékos el nem éri azt, hogy az ő jeléből vízszintesen, függőlegesen vagy átlósan 3 db legyen egymás mellett a táblán. Ekkor az adott jel tulajdonosa nyerte meg a játszmát.
+- a táblán nem marad több üres mező, és így nincs lehetőség további lépésekre. Ha ebben a helyzetben egyik játékosnak sincs 3 jele egymás mellett az 1. pontban leírtak szerint, akkor a játék döntetlenül végződik.
+
+A játék végén rögtön kezdődik egy új, nem kell új szobát létrehozni vagy csatlakozni ismét. Ha a felhasználó nem kíván tovább játszani, akkor kilép. Ez sokkal könnyedebbé, gördülékenyebbé teszi a felhasználói élményt.
 # 10. Funkció – követelmény megfeleltetés.
 # 11. Fogalomszótár.
 - Tic-tac-toe - kétszemélyes absztrakt stratégiai táblás játék, a gomoku játékcsalád egy széleskörben ismert tagja, amit már az ókori Egyiptom területén is ismertek.
