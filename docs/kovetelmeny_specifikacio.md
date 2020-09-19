@@ -41,5 +41,6 @@ hogy legyen.
 # 6. Követelménylista
 - Reszponzív, mobilbarát design
 - Gyors betöltődés, optimalizáció a lassú internetkapcsolattal rendelkező felhasználók részére
+- Az alapvető biztonsági és adatvédelmi protokollok
 # 7. Irányított és szabad szöveges riportok szövege
 # 8. Fogalomszótár
