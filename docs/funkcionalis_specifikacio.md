@@ -4,6 +4,10 @@
 # 4. Jelenlegi üzleti folyamatok modellje.
 # 5. Igényelt üzleti folyamatok modellje.
 # 6. Követelménylista.
+- Reszponzív, mobilbarát design
+- Gyors betöltődés, optimalizáció a lassú internetkapcsolattal rendelkező felhasználók részére
+- Az alapvető biztonsági és adatvédelmi protokollok
+- Egyszerű felület, könnyű kezelhetőség
 # 7. Használati esetek.
 # 8. Képernyőtervek.
 # 9. Forgatókönyvek.
