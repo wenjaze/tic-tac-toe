@@ -18,6 +18,14 @@ kimondható, hogy hazánkban is növekvő tendenciát mutat a videójátékozó
 felnőttek aránya.
 A fent leírtakra támaszkodva fogunk meg egy olyan réteget, akik nem korspecifikusak, nem egy konkrét játék vagy játékzsanra rajongói, hanem azok, akik szeretnek a buszra várva, az unalmas órákon időt eltöltve, pihenve gondolkozni.
 # 2. Vágyálomrendszer leírása.
+Célunk egy olyan egyszerűen játszható játék megírása, melyet mindenki ismer,
+így komplexitás szempontjából a legegyszerűbb : Amőba. A játéknak online
+játszhatónak kell lennie. Fontos szempont az egyszerű csatlakozás 2 féle módon:
+- Szobát csinálunk
+- Egy meglévő szobához csatlakozatunk
+Mivel webes felület, az oldalnak átlátható letisztult UI-ai kell rendelkeznie.
+Online Tic-Tac-Toe játékunk, regisztráció nélkül névtelenül játszahtó kell,
+hogy legyen.
 # 3. A rendszerre vonatkozó pályázat, törvények, rendeletek, szabványok és ajánlások felsorolása.
 # 4. Jelenlegi üzleti folyamatok modellje.
 # 5. Igényelt üzleti folyamatok modellje.
