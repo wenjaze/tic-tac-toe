@@ -16,6 +16,7 @@ ember játszik számítógépes játékokkal az egyesült államokban.
 Magyarországon ez a szám egyes becslések szerint nem tart itt, azonban általánosan
 kimondható, hogy hazánkban is növekvő tendenciát mutat a videójátékozó
 felnőttek aránya.
+A fent leírtakra támaszkodva fogunk meg egy olyan réteget, akik nem korspecifikusak, nem egy konkrét játék vagy játékzsanra rajongói, hanem azok, akik szeretnek a buszra várva, az unalmas órákon időt eltöltve, pihenve gondolkozni.
 # 2. Vágyálomrendszer leírása.
 # 3. A rendszerre vonatkozó pályázat, törvények, rendeletek, szabványok és ajánlások felsorolása.
 # 4. Jelenlegi üzleti folyamatok modellje.
