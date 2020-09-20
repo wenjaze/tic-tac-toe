@@ -116,6 +116,13 @@ A játék addig tart, amíg:
 
 A játék végén rögtön kezdődik egy új, nem kell új szobát létrehozni vagy csatlakozni ismét. Ha a felhasználó nem kíván tovább játszani, akkor kilép. Ez sokkal könnyedebbé, gördülékenyebbé teszi a felhasználói élményt.
 # 10. Funkció – követelmény megfeleltetés.
+Az oldal felkeresése után két opció fogja fogadni a felhasználót:
+- új szoba létrehozása, amihez egy másik felhasználó egy azonosító segítségével tud csatlakozni
+- csatlakozás meglévő szobához. Magától értetődő, hogy ez hogy is fog működni: egy azonosítóval a birtokunkban tudunk majd csatlakozni egy másik felhasználó által létrehozott szobához.
+
+A játék végeztével rögtön új játék veszi kezdetét, ezzel lesz gördülékeny a meccskeresés, játék és felhasználói élmény.
+
+Egy egyszerű és átlátható GUI tárul a felhasználó elé, és hogy az élmény ugyanolyan legyen minden eszközön az oldal reszponzív lesz, bár az elsődleges platform a mobil.
 # 11. Fogalomszótár.
 - Tic-tac-toe - kétszemélyes absztrakt stratégiai táblás játék, a gomoku játékcsalád egy széleskörben ismert tagja, amit már az ókori Egyiptom területén is ismertek.
 - Real-time - valós idejű feldolgozás.
