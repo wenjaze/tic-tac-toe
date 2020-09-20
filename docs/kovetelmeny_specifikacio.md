@@ -73,22 +73,22 @@ hogy legyen.
   - *További játék feltétele, hogy van még hely a papíron és hogy működik az íróeszköz.*
   
 # 5. Igényelt üzleti folyamatok modellje
-- **4.1** Játék helyszíne és ideje:
+- **5.1** Játék helyszíne és ideje:
   - *Bármikor és bárhol, ahol internetelérés van.*
-- **4.2** Játékhoz szükséges eszközök és feltételek:
+- **5.2** Játékhoz szükséges eszközök és feltételek:
   - *Internetelérés és bármilyen eszköz megléte, amivel fel tud csatlakozni a weboldalra.*
-- **4.3** Játék menete:
+- **5.3** Játék menete:
   - *A játékos csatlakozik egy már létező szobához, a szoba link segítségével.*
   - *Ha még nincs elérhető szoba, akkor a játékos készíthet egyet és meghívót küldhet bárkinek, link formájában.*
   - *A játékos - akinek éppen a köre van - a 3x3 cellából álló táblázat valalamelyik cellájába beszúrja a jelét egy új lemnyomással (tapintással).*
   - *Az előző lépés addig ismétlődik, míg egy játékot lezáró esemény nem történik.*
   - *A nem befejezett játék nem marad meg, helyette újrakezdődik a játék.*
-- **4.4** Játékot lezáró események:
+- **5.4** Játékot lezáró események:
   - *Egy játékos győz, ha valamelyik sorban, oszlopban vagy átlóban kigyűjt a jeléből három.*
   - *A játék döntetlen, ha már nincs helye a 3x3 cellás táblán.*
   - *Eszközök elfogyása vagy meghibásodása.*
   - *Internet kapcsolat megszakadása.*
-- **4.5** Játék után:
+- **5.5** Játék után:
   - *A játékosok eldönthetik, hogy játszanak-e még vagy nem.*
   - *A játék nem marad meg, nem lesz elmentve.*
   - *Ha valamenyik játékos még marad a virtuális szobában, akkor megint meg tud hívni más játékosokat a szoba linkjével.*
