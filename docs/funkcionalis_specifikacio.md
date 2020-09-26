@@ -89,6 +89,11 @@ hogy legyen.
 - Az alapvető biztonsági és adatvédelmi protokollok
 - Egyszerű felület, könnyű kezelhetőség
 # 7. Használati esetek.
+Ahogy azt az 1. pontban ismerettük, a mi célközönségünk azok a felhasználók, akik nem korspecifikusak, nem egy konkrét játék vagy játékzsanra rajongói. A játék elsődleges célja a unaloműzés. A buszra várva, egy unalmas órán, sorbanállás közben, a buszon könnyedén játszhatunk valamelyik barátunkkal néhány játszmát.
+
+Mivel a játék nem igényel nyugodt környezetet, mint például egy FPS vagy egy versenyzős játék esetén, ahol fontos, hogy a telefon stabil legyen a kezünkben, ezért mondhatni, hogy szinte minden élethelyzetben játszahtó, a játékélményre nem lesz befolyással a környezet, minimális koncetrációt igényel. Csak egy stabil internetkapcsolatra van szükségünk, nagy sávszélességet, magas le- és feltöltési sebességet nem igényel, ezért ha esetleg út közben szeretnénk játszani vele, ahol nem férünk hozzá Wifi-hez, nem fogyasztja nagy mértékben a mobilinternetünket.
+
+Azt a réteget célozzuk meg vele, akik szeretnek pihenve gondolkodni, ezzel időt tölteni, unalmat űzni.
 # 8. Képernyőtervek.
 A képernyőterveket a ***Figma*** ingyenes online tervzőprogram segítségével hozzuk létre, amit bárki meg tud tekinteni, akinek van meghívó linkje az online felülethez.
 
