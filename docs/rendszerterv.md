@@ -55,4 +55,20 @@
 - Gyors betöltődés, optimalizáció a lassú internetkapcsolattal rendelkező felhasználók részére
 - Az alapvető biztonsági és adatvédelmi protokollok
 - Egyszerű felület, könnyű kezelhetőség
-### 5 Funkcionális  terv
+### 5 Backend
+
+**Beléptetés**
+- Belépéskor a szerver ellenőrzi, hogy létezik-e már a szoba. Ha nem, akkor létrehoz egy szobát és a tagok számát 0-ra állítja.
+- Ha egy játékos csatlakozni akar, a szerver ellenőrzi, hogy van-e hely a szobában. Ha van, akkor csatlakoztatja a két játékost.
+- Ha mindkét játékos csatlakozott, kezdődik a játék.
+- Amennyiben egy felhasználó olyan szobához próbál csatlakozni, ami tele van, hibaüzenetet kap.
+
+**Kiléptetés**
+- Értesítjük a szervert, ha egy játékos elhagyja a szobát. A szerver kiveszi az egyik tagot és csökkenti a tagok számát.
+- Ha a szoba üres, akkor eltávolítjuk a memóriából.
+
+**Lépés**
+- A szerver megkapja az inputot a felhasználótól. 
+- Ellenőrzi, hogy a játékos a szobában van-e. 
+    - Ha igen, akkor végrehajtja az utasítást. 
+    - Ha nem, akkor hibaüzenetet küld.
