@@ -6,7 +6,7 @@ const PORT = process.env.PORT || 4000;
 
 const io = sokcetIO(http);
 
-
+// DEBUGGING célból
 app.get('/', (req, res) => {
     res.status(200).send("Working");
 });
@@ -18,6 +18,7 @@ io.on('connection', socket => {
 
     console.log('An user has joined to the server.');
 
+    // A szoba beléptető logikája.
     socket.on('join', room => {
 
         // Ha a szoba még nem létezik, akkor tegyük a tagok számát 0-ra.
@@ -37,7 +38,7 @@ io.on('connection', socket => {
             // Ha mind a 2 játékos bent van, akkor kezdőthet a játék.
             if(room_manager[room] == 2){
                 io.to(room).emit('start_game', {
-                    starter_player: 'player2'
+                    starter_player: Math.random() < 0.5 ? 'player1' : 'player2'
                 });
             }
         }
@@ -48,6 +49,7 @@ io.on('connection', socket => {
 
     });
 
+    // A szoba kiléptető logikája.
     socket.on('disconnect', () => {
         console.log('An user has disconnected from the server.');
         // Értesítsük a szobát, hogy a játékoosuk kilépett.
@@ -62,10 +64,21 @@ io.on('connection', socket => {
             console.log('Deleting empty room.');
             delete room_manager[socket._room];
         }
-    })
+    });
+
+    // A játék lépés logikája.
+    socket.on('user_input', data=>{
+        // Ha játékos már a szobában van.
+        if('_room' in socket){
+            socket.to(socket._room).emit('user_input', data);
+        }
+        // Ha nincs szobában hiba üzenet
+        else {
+            socket.emit('room_error', 'You have not joined to a room yet.');
+        }
+    });
 });
 
-//app.listen(PORT, () => console.log(`Listening on port ${PORT}...`));
 http.listen(PORT, () => {
     console.log(`Listening on port ${PORT}...`);
     console.log('http://localhost:4000/');
