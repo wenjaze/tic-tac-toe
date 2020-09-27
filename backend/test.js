@@ -54,7 +54,10 @@ sock.on('start_game', ({ starter_player }) => {
 
     // Ez csak akkor lehet küldeni, ha a játék elkezdődött.
     setTimeout(() => {
-        sock.emit('user_input', { row: 0, col: 1 });
+        // Ha a játékos lépett.
+        sock.emit('user_input', {type: 'step', row: 0, col: 1 });
+        // Ha a játkos újra akarja kezdeni (függetlenül, hogy a másik akarja vagy sem).
+        sock.emit('user_input', {type: 'restart'});
     }, Math.floor(Math.random()) * 10000);
 });
 
