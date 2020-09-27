@@ -26,6 +26,7 @@ sock.on('user_joined', () => {
     state.secured = true;
 });
 
+// Ha egy játékos kilépett
 sock.on('user_disconnected', () => {
     console.log(`An user disconnected from room: ${room}`);
 
@@ -34,6 +35,7 @@ sock.on('user_disconnected', () => {
     state.secured = false;
 });
 
+// Játék inditási logika
 sock.on('start_game', ({ starter_player }) => {
 
     // Ha másodikként érkezett, akkor legyen a neve player2
