@@ -14,7 +14,7 @@ function App() {
     <Router>
       <Switch>
         <Route path="/" exact component={Landing} />
-        <Route path="/room/:id" component={Room} />
+        <Route path="/room/:id" exact component={Room} />
         <Route path="/error" exact component={Error} />
       </Switch>
     </Router>
