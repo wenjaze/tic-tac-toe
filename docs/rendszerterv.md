@@ -33,6 +33,26 @@
     - ***2.3.12** Oldal webszerverre telepítése. →*
     - ***2.3.13** Szolgáltatás publikációja. →*
 ### 3 Üzleti folyamatok modellje
-
+- **3.1** Játék helyszíne és ideje:
+  - *Egy meghatározott helyen kell lennie mind a kettő játékosnak, valamint az időpontnak mindenkinek meg kell felelnie.*
+- **3.2** Játékhoz szükséges eszközök és feltételek:
+  - *Parír (lehetőleg kockás) vagy más eszköz, amire lehet ínrni.*
+  - *Toll, ceruza vagy egyéb íróeszköz.*
+  - *A két személynek egy helyen kell lennie és valamilyen formában tudniuk kell kommunikálni szóban.*
+- **3.3** Játék menete:
+  - *A játékos - akinek éppen a köre van - a 3x3 cellából álló táblázat valalamelyik cellájába berajzolja a jelét az íróeszközével.*
+  - *Az előző lépés addig ismétlődik, míg egy játékot lezáró esemény nem történik.*
+  - *A nem befejezett játék megmarad a lapon.*
+- **3.4** Játékot lezáró események:
+  - *Egy játékos győz, ha valamelyik sorban, oszlopban vagy átlóban kigyűjt a jeléből három.*
+  - *A játék döntetlen, ha már nincs helye a 3x3 cellás táblán.*
+  - *Eszközök elfogyása vagy meghibásodása.*
+- **3.5** Játék után:
+  - *A játékosok eldönthetik, hogy játszanak-e még vagy nem.*
+  - *További játék feltétele, hogy van még hely a papíron és hogy működik az íróeszköz.*
 ### 4 Követelmények
+- Reszponzív, mobilbarát design
+- Gyors betöltődés, optimalizáció a lassú internetkapcsolattal rendelkező felhasználók részére
+- Az alapvető biztonsági és adatvédelmi protokollok
+- Egyszerű felület, könnyű kezelhetőség
 ### 5 Funkcionális  terv
