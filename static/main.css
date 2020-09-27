@@ -44,10 +44,6 @@ body,html {
   height: 40%;
 }
 
-* {
-  border: solid red 0.1vw;
-}
-
 .main_container > .desc_container > .description_text {
   /* Description */
   width: 100%;
