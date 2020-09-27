@@ -1,2 +1,159 @@
 @import './base';
 @import './colors';
+
+body {    
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    background: $white;
+}
+
+.main_container {
+    position: absolute;
+    width: 590px;
+    height: 449.39px;
+    left: 122px;
+    top: 225px;
+}
+
+.main_container > .title_container {
+    position: absolute;
+    width: 465px;
+    height: 109px;
+    left: 165px;
+    top: 225px;
+}
+
+.main_container > .title_container > .tictactoe_text {
+    /* Tic Tac Toe */
+    position: absolute;
+    width: 465px;
+    height: 109px;
+    left: 165px;
+    top: 225px;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 109px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.065em;
+
+    /* Green 2 */
+
+    color: $green;
+}
+
+.main_container > .desc_container {
+    position: absolute;
+    width: 590px;
+    height: 149px;
+    left: 122px;
+    top: 409px;
+}
+
+.main_container > .desc_container > .description_text {
+    /* Description */
+
+
+    position: absolute;
+    width: 547px;
+    height: 70px;
+    left: 124px;
+    top: 488px;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: -0.03em;
+
+    /* Gray 2 */
+
+    color: $dark-gray;
+}
+
+.main_container > .desc_container > .play_with_others_text {
+    
+    position: absolute;
+    width: 590px;
+    height: 61px;
+    left: 122px;
+    top: 409px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 61px;
+    letter-spacing: -0.03em;
+    
+    color: $black;
+}
+
+.main_container > .join_container {
+    
+    position: absolute;
+    width: 529px;
+    height: 56.39px;
+    left: 124px;
+    top: 618px;
+
+}
+.main_container > .join_container > .create_room_button {
+    position: absolute;
+    width: 231px;
+    height: 56.39px;
+    left: 124px;
+    top: 618px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: -0.03em;
+
+    color:$white;
+    background-color: $green;
+    border-radius: 5px;
+
+    filter: drop-shadow(5px 5px 0px rgba(0, 0, 0, 0.15));
+}
+
+.main_container > .join_container > .join_existing_button {
+    position: absolute;
+    width: 231px;
+    height: 56.39px;
+    left: 422px;
+    top: 618px;
+
+    background:$white;
+    border: 2px solid $green;
+    box-sizing: border-box;
+    border-radius: 5px;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: $black;
+    
+    filter: drop-shadow(5px 5px 0px rgba(0, 0, 0, 0.15));
+}
+
+
+.pic_container {
+    position: absolute;
+    width: 608px;
+    height: 1024px;
+    left: 832px;
+    top: 0px;
+    background-color: $green;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
