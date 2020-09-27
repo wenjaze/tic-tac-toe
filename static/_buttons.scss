@@ -1,0 +1,23 @@
+.btn {
+    text-decoration: none;
+    text-transform: uppercase;
+    box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    min-width: 230px;
+    height: 56px;
+    border-radius: 5px;
+    padding: 1em 2em;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.btn-primary {
+    background-color: $green;
+    color: $white;
+}
+
+.btn-secondary {
+    background-color: $white;
+    border: 2px solid $green;
+    color: $black;
+}
