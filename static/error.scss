@@ -2,49 +2,51 @@
 @import './colors';
 @import './buttons';
 
-body {
+.body_error {
     text-align: center;
     height: 100vh;
     width: 100vw;
     display: flex;
     align-items: center;
     justify-content: center;
-}
 
-.green {
-    color: $green;
-}
 
-.blue {
-    color: $light-blue;
-}
-
-.red {
-    color: $light-red;
-}
-
-.container {
-    transform: translateY(-20%);
-}
-
-.brand {
-    font-size: 80px;
-    font-weight: bold;
-    margin-bottom: 65px;
-    text-align: center;
-
-    & div {
-        display: inline;
+    .green {
+        color: $green;
     }
-}
 
-h1.error_message {
-    font-weight: bold;
-    font-size: 120px;
-    margin-bottom: 20px;
-}
+    .blue {
+        color: $light-blue;
+    }
 
-p {
-    font-size: 18px;
-    margin-bottom: 60px;
+    .red {
+        color: $light-red;
+    }
+
+    .container {
+        transform: translateY(-20%);
+    }
+
+    .brand {
+        font-size: 80px;
+        font-weight: bold;
+        margin-bottom: 65px;
+        text-align: center;
+
+        & div {
+            display: inline;
+        }
+    }
+
+    h1.error_message {
+        font-weight: bold;
+        font-size: 120px;
+        margin-bottom: 20px;
+    }
+
+    p {
+        font-size: 18px;
+        margin-bottom: 60px;
+    }
+
 }
