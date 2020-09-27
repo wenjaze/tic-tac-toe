@@ -51,4 +51,8 @@
   - *A játékosok eldönthetik, hogy játszanak-e még vagy nem.*
   - *További játék feltétele, hogy van még hely a papíron és hogy működik az íróeszköz.*
 ### 4 Követelmények
+- Reszponzív, mobilbarát design
+- Gyors betöltődés, optimalizáció a lassú internetkapcsolattal rendelkező felhasználók részére
+- Az alapvető biztonsági és adatvédelmi protokollok
+- Egyszerű felület, könnyű kezelhetőség
 ### 5 Funkcionális  terv
