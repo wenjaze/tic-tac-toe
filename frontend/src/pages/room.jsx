@@ -1,11 +1,13 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useState, useRef } from 'react'
 import { useParams } from 'react-router-dom'
 import io from 'socket.io-client'
 import { Redirect, Link } from 'react-router-dom'
 import './room.css';
 
 
-const sock = io('http://localhost:4000/');
+/* const sock = io('http://localhost:4000/', {
+    transports: ['websocket', 'polling']
+}); */
 
 const Room = () => {
     const { id } = useParams();
@@ -15,6 +17,8 @@ const Room = () => {
     const [started, setStarted] = useState(false);
     const [error, setError] = useState('');
     const [board, setBoard] = useState([0, 0, 0, 0, 0, 0, 0, 0, 0]);
+
+    const socketRef = useRef();
 
     const handle_step = (cell, n) => {
         let b = board;
@@ -28,22 +32,25 @@ const Room = () => {
 
     // Socket eventek implementálása
     useEffect(() => {
+        socketRef.current = io('http://localhost:4000/', {
+            transports: ['websocket', 'polling']
+        });
 
         // Ekkor mindig az hiba oldalra küldjön ezzel az üzenettel.
-        sock.on('room_error', err => {
+        socketRef.current.on('room_error', err => {
             console.log('Error: ' + err);
             setError(err);
         });
 
         // Ha a játékos belépett
-        sock.on('user_joined', () => {
+        socketRef.current.on('user_joined', () => {
             console.log(`An user joined to room: ${id}`);
             // Maradjon a neve player1
             setSecured(true);
         });
 
         // Ha egy játékos kilépett
-        sock.on('user_disconnected', () => {
+        socketRef.current.on('user_disconnected', () => {
             console.log(`An user disconnected from room: ${id}`);
 
             // Játék vég
@@ -58,7 +65,7 @@ const Room = () => {
         });
 
         // A csak az a játékos kapja ezt, aki nem küldte, ezért...
-        sock.on('user_input', data => {
+        socketRef.current.on('user_input', data => {
             console.log(`User input: ${data}`);
             handle_step(data.cell, 2);
             // most ez a játékos jön.
@@ -66,7 +73,7 @@ const Room = () => {
         });
 
         // Játék inditási logika
-        sock.on('start_game', ({ starter_player }) => {
+        socketRef.current.on('start_game', ({ starter_player }) => {
             console.log('DEBUG: ' + secured);
             // Ha másodikként érkezett, akkor legyen a neve player2
             if (!secured) {
@@ -90,12 +97,12 @@ const Room = () => {
 
     // Szobába belépés
     useEffect(() => {
-        sock.emit('join', id);
+        socketRef.current.emit('join', id);
     }, []);
 
     const handle_input = (index) => {
         if (my_turn && board[index] == 0) {
-            sock.emit('user_input', { type: 'step', cell: index });
+            socketRef.current.emit('user_input', { type: 'step', cell: index });
             handle_step(index, 1);
             setMyTurn(false);
         }

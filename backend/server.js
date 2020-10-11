@@ -4,7 +4,9 @@ const sokcetIO = require('socket.io');
 
 const PORT = process.env.PORT || 4000;
 
-const io = sokcetIO(http);
+const io = sokcetIO(http, {
+    transports: ['websocket', 'polling']
+});
 
 // DEBUGGING célból
 app.get('/', (req, res) => {

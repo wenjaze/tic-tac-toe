@@ -1,5 +1,7 @@
+// Socket.io kliens API könyvtár meghívása
 const io = require('socket.io-client');
 
+// Websocket léhtrehozása
 let sock = io('http://localhost:4000');
 
 // Ez majd query paraméter lesz.
